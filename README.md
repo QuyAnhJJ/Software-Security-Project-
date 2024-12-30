@@ -1,5 +1,6 @@
 # Software-Security-Project-
 1.Slither
+
 How to install
 Note
 Slither requires Python 3.8+. If you're not going to use one of the supported compilation frameworks, you need solc, the Solidity compiler; we recommend using solc-select to conveniently switch between solc versions.
@@ -17,6 +18,7 @@ We recommend using a Python virtual environment, as detailed in the Developer In
 Run python -m slither path/to/repo
 
 2.C4udit
+
 Installation
 First you need to have the Go toolchain installed. You can find instruction here.
 
@@ -27,6 +29,7 @@ Usage
 Run c4udit path/to/file 
 
 3.Mythril
+
 Installation and setup
 Get it with Docker:
 
