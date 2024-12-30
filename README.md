@@ -21,7 +21,7 @@ Run python -m slither path/to/repo
 
 Installation
 
-First you need to have the Go toolchain installed. You can find instruction here.
+First you need to have the Go toolchain installed. You can find instruction https://go.dev/doc/install.
 
 Then install c4udit with:
 
@@ -42,7 +42,7 @@ $ docker pull mythril/myth
 Install from Pypi (Python 3.7-3.10):
 
 $ pip3 install mythril
-See the docs for more detailed instructions.
+See the https://mythril-classic.readthedocs.io/en/master/installation.html for more detailed instructions.
 
 Usage
 
