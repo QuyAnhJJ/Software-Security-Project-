@@ -1,4 +1,5 @@
 # Software-Security-Project-
+We recommend using a Python virtual environment, as detailed in the Developer Installation Instructions
 1.Slither
 
 How to install
@@ -12,28 +13,27 @@ Using Git
 git clone https://github.com/crytic/slither.git && cd slither
 python3 -m pip install .
 
-We recommend using a Python virtual environment, as detailed in the Developer Installation Instructions, if you prefer to install Slither via git.
 
 - Usage
 Run python -m slither path/to/repo
 
 2.C4udit
 
-Installation
+-Installation
 
 First you need to have the Go toolchain installed. You can find instruction https://go.dev/doc/install.
 
-Then install c4udit with:
+-Then install c4udit with:
 
 $ go install github.com/byterocket/c4udit@latest
 
-Usage 
+-Usage 
 
 Run c4udit path/to/file 
 
 3.Mythril
 
-Installation and setup
+-Installation and setup
 
 Get it with Docker:
 
@@ -44,6 +44,6 @@ Install from Pypi (Python 3.7-3.10):
 $ pip3 install mythril
 See the https://mythril-classic.readthedocs.io/en/master/installation.html for more detailed instructions.
 
-Usage
+-Usage
 
 Run myth analyze path/to/file 
