@@ -6,9 +6,11 @@ Slither requires Python 3.8+. If you're not going to use one of the supported co
 
 Using Pip
 python3 -m pip install slither-analyzer
+
 Using Git
 git clone https://github.com/crytic/slither.git && cd slither
 python3 -m pip install .
+
 We recommend using a Python virtual environment, as detailed in the Developer Installation Instructions, if you prefer to install Slither via git.
 
 Using Docker
@@ -29,7 +31,7 @@ To generate a Markdown report, use slither [target] --checklist.
 To generate a Markdown with GitHub source code highlighting, use slither [target] --checklist --markdown-root https://github.com/ORG/REPO/blob/COMMIT/ (replace ORG, REPO, COMMIT)
 
 - Usage
-- Run python -m slither path/to/repo
+Run python -m slither path/to/repo
 
 2.C4udit
 Installation
