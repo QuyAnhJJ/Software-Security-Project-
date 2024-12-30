@@ -50,5 +50,6 @@ Install from Pypi (Python 3.7-3.10):
 
 $ pip3 install mythril
 See the docs for more detailed instructions.
+
 Usage
 Run myth analyze path/to/file 
