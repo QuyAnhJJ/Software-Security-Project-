@@ -13,23 +13,6 @@ python3 -m pip install .
 
 We recommend using a Python virtual environment, as detailed in the Developer Installation Instructions, if you prefer to install Slither via git.
 
-Using Docker
-Use the eth-security-toolbox docker image. It includes all of our security tools and every major version of Solidity in a single image. /home/share will be mounted to /share in the container.
-
-docker pull trailofbits/eth-security-toolbox
-To share a directory in the container:
-
-docker run -it -v /home/share:/share trailofbits/eth-security-toolbox
-Integration
-For GitHub action integration, use slither-action.
-For pre-commit integration, use (replace $GIT_TAG with real tag)
-- repo: https://github.com/crytic/slither
-  rev: $GIT_TAG
-  hooks:
-    - id: slither
-To generate a Markdown report, use slither [target] --checklist.
-To generate a Markdown with GitHub source code highlighting, use slither [target] --checklist --markdown-root https://github.com/ORG/REPO/blob/COMMIT/ (replace ORG, REPO, COMMIT)
-
 - Usage
 Run python -m slither path/to/repo
 
