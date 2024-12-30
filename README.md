@@ -20,24 +20,30 @@ Run python -m slither path/to/repo
 2.C4udit
 
 Installation
+
 First you need to have the Go toolchain installed. You can find instruction here.
 
 Then install c4udit with:
 
 $ go install github.com/byterocket/c4udit@latest
+
 Usage 
+
 Run c4udit path/to/file 
 
 3.Mythril
 
 Installation and setup
+
 Get it with Docker:
 
 $ docker pull mythril/myth
+
 Install from Pypi (Python 3.7-3.10):
 
 $ pip3 install mythril
 See the docs for more detailed instructions.
 
 Usage
+
 Run myth analyze path/to/file 
